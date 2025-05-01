@@ -25,27 +25,31 @@ The documentation is organized as follows:
 ```
 /
 ├── docs/
-│   ├── articles/
-│   │   ├── actions/      # Documentation for Bricks actions
-│   │   ├── filters/      # Documentation for Bricks filters
-│   │   ├── custom/       # Custom implementation guides
-│   │   └── guides/       # How-to guides and tutorials
-│   ├── topics/           # Topic overview pages
-│   ├── summary.md        # Documentation summary
-│   └── summary.json      # Documentation metadata
+│   └── articles/
+│       ├── getting-started/  # Installation, setup and core concepts
+│       ├── features/         # Bricks Builder features
+│       ├── controls/         # Control types and usage
+│       ├── elements/         # Element documentation
+│       ├── templates/        # Template system
+│       └── woocommerce/      # WooCommerce integration
 ├── .gitignore
 └── README.md
 ```
 
-## Content
+## Documentation Categories
 
-This repository contains Bricks Builder documentation files, primarily focused on developer resources including:
+### User Documentation
 
-- Actions
-- Filters
-- Hooks
-- Customization guides
-- API documentation
+- **Getting Started**: Installation, requirements, builder introduction, and basic concepts
+- **Features**: Dynamic data, interactions, global classes, layouts, and more feature documentation
+- **Templates**: Template creation, settings, library, and template conditions
+- **WooCommerce**: Integration with WooCommerce, product templates, checkout customization
+
+### Developer Documentation
+
+- **Controls**: Documentation for all control types (color, text, image, etc.)
+- **Elements**: Element documentation, custom elements, and element conditions
+- **Actions & Filters**: Developer hooks for extending Bricks functionality
 
 ## Important Note
 
