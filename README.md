@@ -18,6 +18,25 @@ This repository demonstrates how Bricks Builder documentation can benefit from b
 
 - **Version Control and History**: Documentation changes are tracked with the same robust version control that GitHub provides for code, making it easier to understand how documentation has evolved alongside the software.
 
+## Repository Structure
+
+The documentation is organized as follows:
+
+```
+/
+├── docs/
+│   ├── articles/
+│   │   ├── actions/      # Documentation for Bricks actions
+│   │   ├── filters/      # Documentation for Bricks filters
+│   │   ├── custom/       # Custom implementation guides
+│   │   └── guides/       # How-to guides and tutorials
+│   ├── topics/           # Topic overview pages
+│   ├── summary.md        # Documentation summary
+│   └── summary.json      # Documentation metadata
+├── .gitignore
+└── README.md
+```
+
 ## Content
 
 This repository contains Bricks Builder documentation files, primarily focused on developer resources including:
