@@ -1,7 +1,7 @@
 ---
 title: "WooCommerce Template Hooks – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/woocommerce-template-hooks/
-date: 2025-02-27T15:36:21.270817
+date: 2025-05-01T12:32:36.414963
 status: success
 ---
 

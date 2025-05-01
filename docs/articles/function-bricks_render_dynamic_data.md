@@ -1,7 +1,7 @@
 ---
 title: "Function: bricks_render_dynamic_data – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/function-bricks_render_dynamic_data/
-date: 2025-02-27T15:35:04.619243
+date: 2025-05-01T12:02:52.718756
 status: success
 ---
 
@@ -48,4 +48,3 @@ echo bricks_render_dynamic_data('My Post Title: {post_title}');
 ```
 
 `echo bricks_render_dynamic_data('My Post Title: {post_title}'); `
-
