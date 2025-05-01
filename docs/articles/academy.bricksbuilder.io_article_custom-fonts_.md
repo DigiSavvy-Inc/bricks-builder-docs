@@ -1,7 +1,7 @@
 ---
 title: "Custom Fonts – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/custom-fonts/
-date: 2025-05-01T12:35:22.659543
+date: 2025-02-27T15:36:23.616938
 status: success
 ---
 

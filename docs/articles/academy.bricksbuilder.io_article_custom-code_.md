@@ -1,7 +1,7 @@
 ---
 title: "Custom Code – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/custom-code/
-date: 2025-05-01T12:03:32.813305
+date: 2025-02-27T15:36:18.838875
 status: success
 ---
 

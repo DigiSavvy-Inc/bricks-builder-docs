@@ -1,7 +1,7 @@
 ---
 title: "Action: bricks/query/after_loop – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/action-bricks-query-after_loop/
-date: 2025-05-01T12:03:24.449703
+date: 2025-02-27T15:36:12.739035
 status: success
 ---
 

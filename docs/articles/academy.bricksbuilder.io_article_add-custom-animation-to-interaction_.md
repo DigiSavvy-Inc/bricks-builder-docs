@@ -1,7 +1,7 @@
 ---
 title: "How to add a custom animation in interaction – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/add-custom-animation-to-interaction/
-date: 2025-05-01T12:32:58.453462
+date: 2025-02-27T15:36:22.451456
 status: success
 ---
 

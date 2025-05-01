@@ -1,7 +1,7 @@
 ---
 title: "Developer – Bricks Academy"
 url: https://academy.bricksbuilder.io/collection/developer/
-date: 2025-05-01T12:02:41.268269
+date: 2025-02-27T15:34:47.715510
 status: success
 ---
 
@@ -126,9 +126,6 @@ status: success
   - [Filter: bricks/password_protection/is_active](#filter-brickspasswordprotectionisactive)
   - [Filter: bricks/content/tag](#filter-brickscontenttag)
   - [Filter: bricks/use_duplicate_content](#filter-bricksuseduplicatecontent)
-  - [Filter: bricks/form/action/{form_action}](#filter-bricksformactionformaction)
-  - [Filter: bricks/maintenance/should_apply](#filter-bricksmaintenanceshouldapply)
-  - [Filter: bricks/frontend/render_element](#filter-bricksfrontendrenderelement)
 
 ### What  would you like to know?
 
@@ -247,9 +244,6 @@ status: success
 - Filter: bricks/password_protection/is_activeUse this filter to add custom rules that determine whether a password protection template should be active. By default, the… ...Continue reading ›
 - Filter: bricks/content/tagThe bricks/content/tag (@since 1.11.1) filter lets you set the HTML tag for the #brx-content node that your Bricks content data… ...Continue reading ›
 - Filter: bricks/use_duplicate_contentDuplicate content is available for all users with the edit_post capability. Use this feature to duplicate any post or page… ...Continue reading ›
-- Filter: bricks/form/action/{form_action}The bricks/form/action/{form_action} filter is triggered when a custom action (one that is not reserved by Bricks) is selected in a… ...Continue reading ›
-- Filter: bricks/maintenance/should_applyUse this filter to override whether maintenance mode should be enforced for the current request. By default, Bricks checks if… ...Continue reading ›
-- Filter: bricks/frontend/render_elementThe bricks/frontend/render_element filter allows you to modify the HTML output of any element in Bricks on the frontend. This powerful… ...Continue reading ›
 -
 
 ### Filter: bricks/builder/i18n
@@ -703,16 +697,4 @@ The bricks/content/tag (@since 1.11.1) filter lets you set the HTML tag for the 
 ### Filter: bricks/use_duplicate_content
 
 Duplicate content is available for all users with the edit_post capability. Use this feature to duplicate any post or page… ...
-
-### Filter: bricks/form/action/{form_action}
-
-The bricks/form/action/{form_action} filter is triggered when a custom action (one that is not reserved by Bricks) is selected in a… ...
-
-### Filter: bricks/maintenance/should_apply
-
-Use this filter to override whether maintenance mode should be enforced for the current request. By default, Bricks checks if… ...
-
-### Filter: bricks/frontend/render_element
-
-The bricks/frontend/render_element filter allows you to modify the HTML output of any element in Bricks on the frontend. This powerful… ...
 

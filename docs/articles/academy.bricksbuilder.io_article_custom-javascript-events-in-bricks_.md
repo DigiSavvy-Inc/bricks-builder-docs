@@ -1,7 +1,7 @@
 ---
 title: "Custom JavaScript events in Bricks – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/custom-javascript-events-in-bricks/
-date: 2025-05-01T12:02:59.376168
+date: 2025-02-27T15:35:22.849383
 status: success
 ---
 

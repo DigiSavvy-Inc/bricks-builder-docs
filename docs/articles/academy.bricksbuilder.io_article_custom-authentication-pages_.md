@@ -1,7 +1,7 @@
 ---
 title: "Custom Authentication Pages – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/custom-authentication-pages/
-date: 2025-05-01T12:03:29.204735
+date: 2025-02-27T15:36:17.593873
 status: success
 ---
 

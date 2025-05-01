@@ -1,7 +1,7 @@
 ---
 title: "Action: bricks/query/before_loop – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/action-bricks-query-before_loop/
-date: 2025-05-01T12:02:53.359956
+date: 2025-02-27T15:35:10.823822
 status: success
 ---
 

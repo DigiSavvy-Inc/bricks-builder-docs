@@ -1,7 +1,7 @@
 ---
 title: "How to set up your Google Maps API key – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/how-to-set-up-your-google-maps-api-key/
-date: 2025-05-01T12:03:28.200865
+date: 2025-02-27T15:36:16.330658
 status: success
 ---
 
