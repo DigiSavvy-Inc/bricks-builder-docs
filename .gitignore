@@ -36,3 +36,6 @@ CLAUDE.MD
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Utility scripts
+categorize.sh
