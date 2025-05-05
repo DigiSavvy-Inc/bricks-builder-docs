@@ -25,15 +25,22 @@ The documentation is organized as follows:
 ```
 /
 ├── docs/
-│   ├── articles/
+│   ├── actions/              # WordPress action hooks
+│   ├── articles/             # General articles
 │   │   ├── getting-started/  # Installation, setup and core concepts
 │   │   ├── features/         # Bricks Builder features
 │   │   ├── controls/         # Control types and usage
 │   │   ├── elements/         # Element documentation
 │   │   ├── templates/        # Template system
 │   │   └── woocommerce/      # WooCommerce integration
-│   ├── filters/              # Developer filters documentation
-│   └── topics/               # Topic overviews
+│   ├── customization/        # Customization guides
+│   ├── developer/            # Developer documentation
+│   ├── filters/              # WordPress filter hooks
+│   ├── integrations/         # Third-party integrations
+│   ├── security/             # Security documentation
+│   ├── tools/                # CLI and other tools
+│   ├── topics/               # Topic overviews
+│   └── tutorials/            # How-to guides and tutorials
 ├── .gitignore
 └── README.md
 ```
@@ -49,9 +56,16 @@ The documentation is organized as follows:
 
 ### Developer Documentation
 
+- **Actions**: WordPress action hooks for running code at specific points
 - **Controls**: Documentation for all control types (color, text, image, etc.)
+- **Customization**: Guides for customizing Bricks functionality
+- **Developer**: Documentation for extending Bricks with custom elements and features
 - **Elements**: Element documentation, custom elements, and element conditions
-- **Filters**: Developer filters for extending and modifying Bricks functionality
+- **Filters**: WordPress filter hooks for modifying Bricks functionality
+- **Integrations**: Guides for third-party integrations
+- **Security**: Security best practices and considerations
+- **Tools**: CLI and other development tools
+- **Tutorials**: Step-by-step guides for common tasks
 
 ## Important Note
 
