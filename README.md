@@ -20,29 +20,31 @@ This repository demonstrates how Bricks Builder documentation can benefit from b
 
 ## Repository Structure
 
-The documentation is organized as follows:
+The documentation is organized into focused directories for different types of content. For a comprehensive overview, see the [Documentation Index](/docs/index.md):
+
+| Directory | Description | Contents |
+|-----------|-------------|----------|
+| [`docs/actions/`](/docs/actions/) | WordPress action hooks | Documentation for Bricks action hooks |
+| [`docs/articles/`](/docs/articles/) | General articles | Core documentation organized by topic |
+| [`docs/customization/`](/docs/customization/) | Customization guides | How to customize Bricks functionality |
+| [`docs/developer/`](/docs/developer/) | Developer documentation | Creating custom elements and features |
+| [`docs/filters/`](/docs/filters/) | WordPress filter hooks | Documentation for Bricks filter hooks |
+| [`docs/integrations/`](/docs/integrations/) | Third-party integrations | WPML, Polylang, and other integrations |
+| [`docs/security/`](/docs/security/) | Security documentation | Security best practices and considerations |
+| [`docs/tools/`](/docs/tools/) | CLI and other tools | Bricks CLI and other development tools |
+| [`docs/topics/`](/docs/topics/) | Topic overviews | High-level topic documentation |
+| [`docs/tutorials/`](/docs/tutorials/) | How-to guides | Step-by-step guides for common tasks |
+
+Within the `articles` directory, content is further organized into subdirectories:
 
 ```
-/
-├── docs/
-│   ├── actions/              # WordPress action hooks
-│   ├── articles/             # General articles
-│   │   ├── getting-started/  # Installation, setup and core concepts
-│   │   ├── features/         # Bricks Builder features
-│   │   ├── controls/         # Control types and usage
-│   │   ├── elements/         # Element documentation
-│   │   ├── templates/        # Template system
-│   │   └── woocommerce/      # WooCommerce integration
-│   ├── customization/        # Customization guides
-│   ├── developer/            # Developer documentation
-│   ├── filters/              # WordPress filter hooks
-│   ├── integrations/         # Third-party integrations
-│   ├── security/             # Security documentation
-│   ├── tools/                # CLI and other tools
-│   ├── topics/               # Topic overviews
-│   └── tutorials/            # How-to guides and tutorials
-├── .gitignore
-└── README.md
+docs/articles/
+├── getting-started/  # Installation, setup and core concepts
+├── features/         # Bricks Builder features
+├── controls/         # Control types and usage
+├── elements/         # Element documentation
+├── templates/        # Template system
+└── woocommerce/      # WooCommerce integration
 ```
 
 ## Documentation Categories
