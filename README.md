@@ -25,13 +25,15 @@ The documentation is organized as follows:
 ```
 /
 ├── docs/
-│   └── articles/
-│       ├── getting-started/  # Installation, setup and core concepts
-│       ├── features/         # Bricks Builder features
-│       ├── controls/         # Control types and usage
-│       ├── elements/         # Element documentation
-│       ├── templates/        # Template system
-│       └── woocommerce/      # WooCommerce integration
+│   ├── articles/
+│   │   ├── getting-started/  # Installation, setup and core concepts
+│   │   ├── features/         # Bricks Builder features
+│   │   ├── controls/         # Control types and usage
+│   │   ├── elements/         # Element documentation
+│   │   ├── templates/        # Template system
+│   │   └── woocommerce/      # WooCommerce integration
+│   ├── filters/              # Developer filters documentation
+│   └── topics/               # Topic overviews
 ├── .gitignore
 └── README.md
 ```
@@ -49,7 +51,7 @@ The documentation is organized as follows:
 
 - **Controls**: Documentation for all control types (color, text, image, etc.)
 - **Elements**: Element documentation, custom elements, and element conditions
-- **Actions & Filters**: Developer hooks for extending Bricks functionality
+- **Filters**: Developer filters for extending and modifying Bricks functionality
 
 ## Important Note
 
