@@ -28,7 +28,6 @@ out/
 
 # Claude specific
 **/.claude/settings.local.json
-CLAUDE.MD
 
 # Local environment files
 .env
@@ -39,3 +38,18 @@ CLAUDE.MD
 
 # Utility scripts
 categorize.sh
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+bricks_env/
+venv/
+ENV/
+env/
+.venv
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
