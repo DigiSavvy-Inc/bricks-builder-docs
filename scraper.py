@@ -172,10 +172,74 @@ def save_as_markdown(data, filepath):
                 if p.strip():
                     f.write(f'{p.strip()}\n\n')
 
-def create_knowledge_base(csv_path, output_dir="knowledge_base", delay=1, dev_only=False):
-    """Create a knowledge base from URLs in a CSV file."""
-    # Create output directory
+def categorize_doc(url, title=None):
+    """Determine which docs subdirectory a document belongs to based on URL and title."""
+    url_lower = url.lower()
+    
+    # Filters
+    if 'filter-bricks' in url_lower:
+        return 'filters'
+    
+    # Actions
+    if 'action-bricks' in url_lower:
+        return 'actions'
+    
+    # Functions (developer)
+    if 'function-bricks' in url_lower:
+        return 'developer'
+    
+    # Topics
+    if '/topic/' in url_lower:
+        return 'topics'
+    
+    # Collections
+    if '/collection/' in url_lower:
+        if 'developer' in url_lower:
+            return 'developer'
+        elif 'tutorial' in url_lower:
+            return 'tutorials'
+        else:
+            return 'articles'
+    
+    # Customization patterns
+    if any(pattern in url_lower for pattern in ['custom-', 'create-your-own']):
+        return 'customization'
+    
+    # Integrations
+    if any(pattern in url_lower for pattern in ['wpml', 'polylang', 'instagram', 'adobe-fonts', 'unsplash', 'google-maps']):
+        return 'integrations'
+    
+    # Security
+    if any(pattern in url_lower for pattern in ['security', 'code-signatures', 'password-protection', 'restrict-license']):
+        return 'security'
+    
+    # CLI and tools
+    if any(pattern in url_lower for pattern in ['bricks-cli', 'bricks-rce']):
+        return 'tools'
+    
+    # Tutorials/How-to
+    if 'how-to' in url_lower:
+        return 'tutorials'
+    
+    # WooCommerce
+    if any(pattern in url_lower for pattern in ['woocommerce', 'cart', 'checkout', 'product']):
+        return 'tutorials'  # WooCommerce tutorials
+    
+    # Default to articles
+    return 'articles'
+
+def create_knowledge_base(csv_path, output_dir="docs", delay=1, dev_only=False):
+    """Create a knowledge base from URLs in a CSV file, organized into docs structure."""
+    # Create output directory and subdirectories
     os.makedirs(output_dir, exist_ok=True)
+    
+    # Create subdirectories
+    subdirs = ['actions', 'articles', 'customization', 'developer', 
+               'filters', 'integrations', 'security', 'tools', 
+               'topics', 'tutorials']
+    
+    for subdir in subdirs:
+        os.makedirs(os.path.join(output_dir, subdir), exist_ok=True)
     
     # Read CSV file
     df = pd.read_csv(csv_path)
@@ -251,9 +315,12 @@ def create_knowledge_base(csv_path, output_dir="knowledge_base", delay=1, dev_on
         if path == '':
             path = '_index'
         
+        # Determine category for this document
+        category = categorize_doc(url)
+        
         # Use markdown extension instead of json
         filename = f"{domain}{path}.md"
-        filepath = os.path.join(output_dir, filename)
+        filepath = os.path.join(output_dir, category, filename)
         
         # Skip if already scraped
         if os.path.exists(filepath):
@@ -318,7 +385,7 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description='Create a knowledge base from URLs in a CSV file.')
     parser.add_argument('csv_path', help='Path to the CSV file containing URLs')
-    parser.add_argument('--output', default='knowledge_base', help='Output directory')
+    parser.add_argument('--output', default='docs', help='Output directory (default: docs)')
     parser.add_argument('--delay', type=float, default=1.0, help='Delay between requests in seconds')
     parser.add_argument('--dev-only', action='store_true', help='Filter for developer-oriented documentation only')
     
