@@ -1,0 +1,919 @@
+{
+  "total": 228,
+  "successful": 228,
+  "failed": 0,
+  "sources": [
+    {
+      "url": "https://academy.bricksbuilder.io/collection/developer/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/color-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/topic/actions/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/background-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-frontend-render_element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-element-render_attributes/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/text-shadow-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-element-settings/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/text-transform-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/direction-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/child-theme/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/topic/controls/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-loop_object/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-password_protection-cookie-expires/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/select-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/image-gallery-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-assets-generate_css_from_element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-body-attributes/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-related_posts-query_vars/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-allowed_html_tags/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/justify-content-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/editor-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-posts-merge_query/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-render_query_loop_trail/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-code-echo_function_names/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-result/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/box-shadow-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-content-tag/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/function-bricks_render_dynamic_data/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/nestable-elements/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/repeater-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/element-controls/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/datepicker-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/bricks-cli/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/topic/getting-started/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/action-bricks-query-before_loop/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/create-your-own-elements/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-elements-element_name-control_groups/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-is_layout_element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/code-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-frontend-render_data/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/topic/woocommerce/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-post_terms_links/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-footer-attributes/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/image-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-comments-timestamp/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/query-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/text-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-auth-custom_redirect_url/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-active_templates/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/text-align-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-elements-element_name-controls/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/collection/tutorial/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-init_loop_index/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/custom-javascript-events-in-bricks/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-auth-custom_reset_password_redirect/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/action-bricks-generate_css_file/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-assets-load_webfonts/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/topic/templates/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-code-disable_execution/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/number-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-auth-custom_lost_password_redirect/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/checkbox-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/icon-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-use_duplicate_content/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/border-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-element-render/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/align-items-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-builder-elements/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-builder-image_size_options/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-builder-settings-type-controls_data/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-save-messages/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/audio-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-header-attributes/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/topic/filters/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/bricks-rce/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-screen_conditions-scores/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-default_page_title/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/textarea-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/info-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-force_run/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/svg-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-form-action-form_action/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/create-your-own-dynamic-data-tag/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-nav_menu-menu/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-search_form-home_url/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filters-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/topic/basics/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-posts-query_vars/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-password_protection-is_active/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/apply-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/link-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-registered_post_types_args/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-builder-codemirror_config/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-auth-custom_registration_redirect/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-set_root_attributes/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-color-palette/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-builder-mapstyles/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-content-html_before_end/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-content-attributes/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/topic/features/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-read_more/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-result_count/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-auth-custom_login_redirect/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/typography-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/collection/builder/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-placeholder_image/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-terms-query_vars/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/dimensions-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-post_terms_separator/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/text-decoration-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-get_element_data-maybe_from_post_id/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-i18n/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-content-html_after_begin/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-users-query_vars/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/slider-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-maintenance-should_apply/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/gradient-control/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-setup-control_options/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-link_css_selectors/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-result_max_num_pages/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/action-bricks-query-after_loop/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-run/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-replace_nonexistent_tags/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-code-allow_execution/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-code-disallow_keywords/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-standard-fonts/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-exclude_tags/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/font-manager/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/gradients-overlays/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/pseudo-classes/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/form-element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/custom-authentication-pages/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/container-element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/masonry-layout/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/dynamic-data/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/sidebars/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/menu-builder/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/custom-code/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/block-element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/shape-dividers/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/icon-manager/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/code-signatures/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/maintenance-mode/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/global-class-import-manager/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/css-grid-layout/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/element-post-content/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/svg-uploads/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/query-results-summary-element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/context-menu/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/custom-attributes/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/builder-mode/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/converter/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/visual-grid-builder/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/bricks-css-compatibility-guidelines/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/map-element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/scroll-snap/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/keyboard-shortcuts/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/save-form-submissions/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/hover-styles/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/section-element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/components/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/how-to-set-up-your-google-maps-api-key/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/unsplash/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/breadcrumbs-element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/cascade-layer/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/global-variables-manager/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/query-filters/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/global-elements/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/builder-access/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/code-review/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/command-palette/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/adobe-fonts/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/contextual-spacing/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/accessibility/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/global-class-manager/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/global-css-classes/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/div-element/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/asset-loading/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/query-loop/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/password-protection/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/nestable-slider-instance/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/known-issues/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/editing-elements/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/editing-with-bricks/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/theme-styles/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/installation-activation/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/settings/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/page-settings/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/layout/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/best-practices/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/revisions/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/restrict-license-key-usage/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/gutenberg/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/builder-intro/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/requirements/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/responsive-editing/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/checkout/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/save-publish/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/element-checkout-login/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/woocommerce-account-builder/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/product-archive-woocommerce/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/woocommerce-builder/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/element-checkout-coupon/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/woocommerce-template-hooks/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/single-product/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/woocommerce-notices/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/creating-dynamic-woocommerce-archive-pages/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/product-variation-swatches/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/cart/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/instagram-access-token/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/polylang/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/how-to-use-wpml-with-bricks/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/how-to-create-product-quick-view-with-bricks/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/popup-builder/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/interactions/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/create-template/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/add-custom-animation-to-interaction/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/custom-fonts/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/an-intro-to-templates/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/template-library/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/remote-templates/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/template-settings/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/element-conditions/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-loop_object_type/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-no_results_content/",
+      "status": "success"
+    },
+    {
+      "url": "https://academy.bricksbuilder.io/article/filter-bricks-query-loop_object_id/",
+      "status": "success"
+    }
+  ]
+}
