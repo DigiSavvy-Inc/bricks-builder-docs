@@ -39,6 +39,11 @@ out/
 # Utility scripts
 categorize.sh
 
+# Data files
+*.csv
+csv/
+data/
+
 # Python
 __pycache__/
 *.py[cod]
