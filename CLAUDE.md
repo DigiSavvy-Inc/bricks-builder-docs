@@ -13,14 +13,23 @@ This project is a web scraping utility designed to create a comprehensive knowle
 bricks-scraper-docs/
 ├── bricks-academy-page_titles_all.csv   # Source CSV with all documentation URLs
 ├── scraper.py                           # Main scraping utility
-├── knowledge_base/                      # Full documentation scrape output
-│   ├── *.md                            # Individual documentation pages
-│   ├── summary.md                      # Summary of scraping results
+├── CLAUDE.md                            # This documentation file
+├── README.md                            # Repository overview and benefits
+├── .gitignore                           # Git ignore configuration
+├── docs/                                # Organized documentation output
+│   ├── actions/                        # WordPress action hooks
+│   ├── articles/                       # General documentation articles
+│   ├── customization/                  # Customization guides
+│   ├── developer/                      # Developer documentation
+│   ├── filters/                        # WordPress filter hooks
+│   ├── integrations/                   # Third-party integrations
+│   ├── security/                       # Security documentation
+│   ├── tools/                          # CLI and development tools
+│   ├── topics/                         # Topic overviews
+│   ├── tutorials/                      # How-to guides
+│   ├── index.md                        # Documentation index
+│   ├── summary.md                      # Scraping summary report
 │   └── summary.json                    # JSON summary for programmatic access
-├── knowledge_base_dev/                  # Developer-focused documentation subset
-│   ├── *.md                            # Developer-oriented pages only
-│   ├── summary.md                      # Summary of dev docs scraping
-│   └── summary.json                    # JSON summary for dev docs
 └── bricks_env/                          # Python virtual environment
 ```
 
@@ -28,17 +37,24 @@ bricks-scraper-docs/
 
 ### Basic Usage
 ```bash
+# Activate virtual environment
+source bricks_env/bin/activate
+
+# Scrape all documentation to /docs
 python scraper.py bricks-academy-page_titles_all.csv
+
+# Or specify custom output directory
+python scraper.py bricks-academy-page_titles_all.csv --output docs
 ```
 
 ### Developer Documentation Only
 ```bash
-python scraper.py bricks-academy-page_titles_all.csv --output knowledge_base_dev --dev-only
+python scraper.py bricks-academy-page_titles_all.csv --dev-only
 ```
 
 ### Command Line Options
 - `csv_path`: Path to CSV file containing URLs (required)
-- `--output`: Output directory (default: 'knowledge_base')
+- `--output`: Output directory (default: 'docs')
 - `--delay`: Delay between requests in seconds (default: 1.0)
 - `--dev-only`: Filter for developer-oriented documentation only
 
@@ -106,3 +122,152 @@ https://academy.bricksbuilder.io/...,1,Page Title,30,282,Indexable,
 - Creates well-structured, searchable offline documentation
 - Particularly useful for developers working with Bricks Builder customizations
 - Non-destructive: skips already scraped content to allow incremental updates
+
+## Documentation Update Strategy
+
+### Regular Updates
+To keep the documentation current with Bricks Builder Academy updates, follow this maintenance strategy:
+
+#### 1. Discovering New Documentation
+**Manual Check (Weekly/Monthly)**
+- Visit https://academy.bricksbuilder.io periodically
+- Check their changelog or news section for new articles
+- Monitor Bricks Builder release notes for documentation updates
+
+**Automated Discovery Options**
+- Export a fresh sitemap or page list from the Academy site
+- Use a web scraping tool to generate an updated CSV of all URLs
+- Compare with existing `bricks-academy-page_titles_all.csv` to find new pages
+
+#### 2. Updating the CSV Source
+```bash
+# If you have a new export of URLs, update the CSV:
+cp new_export.csv bricks-academy-page_titles_all.csv
+
+# Or manually add new URLs to the existing CSV
+echo "https://academy.bricksbuilder.io/article/new-feature/,1,New Feature Title,..." >> bricks-academy-page_titles_all.csv
+```
+
+#### 3. Incremental Scraping
+The scraper automatically skips existing files, making updates efficient:
+```bash
+# Activate environment
+source bricks_env/bin/activate
+
+# Run scraper - it will only fetch new/missing pages
+python scraper.py bricks-academy-page_titles_all.csv
+
+# The scraper will:
+# - Skip all existing documentation files
+# - Only download new pages
+# - Automatically categorize them into the correct /docs subdirectory
+# - Update summary.md and summary.json with the latest stats
+```
+
+#### 4. Handling Updated Content
+For pages that have been updated (not new):
+```bash
+# Remove the specific file to force re-scraping
+rm docs/articles/academy.bricksbuilder.io_article_specific-page_.md
+
+# Or remove multiple files that need updating
+rm docs/filters/academy.bricksbuilder.io_article_filter-bricks-*.md
+
+# Run scraper to fetch fresh versions
+python scraper.py bricks-academy-page_titles_all.csv
+```
+
+#### 5. Version Control Best Practices
+```bash
+# Before updating, create a branch
+git checkout -b docs-update-$(date +%Y%m%d)
+
+# Run the scraper
+python scraper.py bricks-academy-page_titles_all.csv
+
+# Review changes
+git status
+git diff docs/
+
+# Commit updates with descriptive message
+git add -A
+git commit -m "docs: Update Bricks Academy documentation $(date +%Y-%m-%d)
+
+- Added X new articles
+- Updated Y existing pages
+- New filters/actions documented: [list key ones]"
+
+# Push and create PR
+git push origin docs-update-$(date +%Y%m%d)
+```
+
+### Monitoring Documentation Health
+
+#### Quality Checks
+1. **Broken Links**: Periodically check for 404s in scraped content
+2. **Missing Categories**: Review uncategorized docs in `/docs/articles`
+3. **Duplicates**: Check for duplicate content across categories
+
+#### Automated Validation Script
+Consider creating a validation script that:
+```python
+# validate_docs.py example structure
+def validate_documentation():
+    # Check all files have proper frontmatter
+    # Verify no broken internal links
+    # Ensure consistent formatting
+    # Flag documents that may need recategorization
+    # Generate health report
+```
+
+### Documentation Categories
+
+The scraper automatically categorizes based on URL patterns:
+
+| Pattern | Category | Example |
+|---------|----------|---------|
+| `filter-bricks-*` | `/docs/filters/` | Filter hooks documentation |
+| `action-bricks-*` | `/docs/actions/` | Action hooks documentation |
+| `function-bricks-*` | `/docs/developer/` | Function references |
+| `/topic/` | `/docs/topics/` | Topic overviews |
+| `custom-`, `create-your-own` | `/docs/customization/` | Customization guides |
+| `wpml`, `polylang`, etc. | `/docs/integrations/` | Third-party integrations |
+| `how-to-*` | `/docs/tutorials/` | Step-by-step guides |
+| `woocommerce`, `cart`, `checkout` | `/docs/tutorials/` | WooCommerce guides |
+| Default | `/docs/articles/` | General documentation |
+
+To add new categorization rules, update the `categorize_doc()` function in `scraper.py`.
+
+### Troubleshooting Common Issues
+
+#### Issue: Scraper Fails on Specific Pages
+```bash
+# Check specific URL manually
+curl -I https://academy.bricksbuilder.io/article/problematic-page/
+
+# Run scraper with increased timeout
+python scraper.py bricks-academy-page_titles_all.csv --delay 2.0
+```
+
+#### Issue: Wrong Categorization
+```bash
+# Move file to correct category
+mv docs/articles/misplaced_file.md docs/filters/
+
+# Update categorize_doc() function in scraper.py for future runs
+```
+
+#### Issue: Rate Limiting
+```bash
+# Increase delay between requests
+python scraper.py bricks-academy-page_titles_all.csv --delay 3.0
+```
+
+### Future Enhancements
+
+Consider implementing:
+1. **RSS/Feed Monitor**: Auto-detect new documentation via RSS feeds
+2. **Diff Reports**: Generate reports showing what changed in updated pages
+3. **Search Index**: Build a searchable index of all documentation
+4. **API Documentation Generator**: Extract API details into structured format
+5. **Automated PR Creation**: GitHub Action to check for updates weekly
