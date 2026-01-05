@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/dynamic_data/read_more – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-read_more/
-date: 2025-05-01T12:03:20.729543
+date: 2026-01-05T11:08:19.574554
 status: success
 ---
 

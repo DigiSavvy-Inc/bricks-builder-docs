@@ -1,7 +1,7 @@
 ---
 title: "Custom Fonts – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/custom-fonts/
-date: 2025-02-27T15:36:23.616938
+date: 2026-01-05T11:09:42.742393
 status: success
 ---
 
@@ -25,6 +25,8 @@ status: success
 Your website typography has a huge impact on how your site is perceived, and it’ll pay off to spend some time to get this aspect right.
 
 Bricks allows you to add any font you want. From web-safe fonts to Google fonts, and of course, uploading your own custom fonts in your WordPress dashboard underBricks > Custom Fonts. The latter which we are going to have a more in-depth look at now.
+
+Bricks 2.0 introduces a brand-new “Font  Manager” for uploading and managing your Custom Fonts right from within the builder. Download Google Fonts locally, etc.
 
 ### How To Create & Upload Custom Fonts
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/auth/custom_reset_password_redirect – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-auth-custom_reset_password_redirect/
-date: 2025-05-01T12:03:00.027603
+date: 2026-01-05T11:07:46.624070
 status: success
 ---
 

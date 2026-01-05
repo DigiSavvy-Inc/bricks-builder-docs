@@ -1,7 +1,7 @@
 ---
 title: "Icon Manager – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/icon-manager/
-date: 2025-08-13T09:55:43.045161
+date: 2026-01-05T11:08:47.894307
 status: success
 ---
 

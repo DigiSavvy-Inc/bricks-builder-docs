@@ -1,7 +1,7 @@
 ---
 title: "Controls (Developer) – Bricks Academy"
 url: https://academy.bricksbuilder.io/topic/controls/
-date: 2025-02-27T15:34:54.930423
+date: 2026-01-05T11:07:15.583727
 status: success
 ---
 
@@ -56,7 +56,7 @@ status: success
 - Query ControlThe query control lets you set query arguments to retrieve items of any post type. Use the returned value to… ...Continue reading ›
 - Border ControlThe border control lets you set the following border properties:  Border width (top/right/bottom/left)Background style (top/right/bottom/left)Background color (none/solid/double/dotted/dashed)Border radius (top/right/bottom/left) The example below… ...Continue reading ›
 - Background ControlThe background control lets you set the following background properties: Background colorBackground imageBackground video (requires bricksBackgroundVideoInit script. See code example… ...Continue reading ›
-- Icon ControlThe icon control lets you select and output icons from the following icon font libraries: Fontawesome 6Ionicons 4Themify The user… ...Continue reading ›
+- Icon ControlThe icon control lets you select and output icons from the following icon font libraries: The user can also select… ...Continue reading ›
 - Checkbox ControlThe checkbox control is a simple on/off switch. If enabled it outputs a boolean value of true. Disabled it returns… ...Continue reading ›
 - Info ControlThe info control does not affect the HTML or CSS on the frontend. It serves as a builder-only helper controls… ...Continue reading ›
 - Editor ControlThe editor control provides the default WordPress editor. To directly edit content in the builder preview set the inlineEditing properties.… ...Continue reading ›
@@ -104,7 +104,7 @@ The background control lets you set the following background properties: Backgro
 
 ### Icon Control
 
-The icon control lets you select and output icons from the following icon font libraries: Fontawesome 6Ionicons 4Themify The user… ...
+The icon control lets you select and output icons from the following icon font libraries: The user can also select… ...
 
 ### Checkbox Control
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/header/attributes – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-header-attributes/
-date: 2025-05-01T12:03:08.047669
+date: 2026-01-05T11:07:59.224593
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/frontend/render_data – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-frontend-render_data/
-date: 2025-05-01T12:02:57.948518
+date: 2026-01-05T11:07:36.562945
 status: success
 ---
 
@@ -13,7 +13,7 @@ status: success
 
 - [Filter: bricks/frontend/render_data](#filter-bricksfrontendrenderdata)
   - [Example: Add a unique ID to each heading](#example-add-a-unique-id-to-each-heading)
-        - [Filter: bricks/active_templates](#filter-bricksactivetemplates)
+        - [Filter: bricks/form/file_directory](#filter-bricksformfiledirectory)
         - [Filter: bricks/query/result_max_num_pages](#filter-bricksqueryresultmaxnumpages)
 
 ## Filter: bricks/frontend/render_data
@@ -100,7 +100,7 @@ In this example, a callback function is defined within the add_filter function c
 
 `bricks/frontend/render_data`
 
-###### Filter: bricks/active_templates
+###### Filter: bricks/form/file_directory
 
 ###### Filter: bricks/query/result_max_num_pages
 

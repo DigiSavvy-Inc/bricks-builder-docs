@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/setup/control_options – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-setup-control_options/
-date: 2025-05-01T12:03:23.477442
+date: 2026-01-05T11:08:31.550757
 status: success
 ---
 

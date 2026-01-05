@@ -1,7 +1,7 @@
 ---
 title: "How to use Polylang with Bricks – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/polylang/
-date: 2025-05-01T12:32:50.520928
+date: 2026-01-05T11:09:37.811710
 status: success
 ---
 
@@ -14,6 +14,7 @@ status: success
 - [How to use Polylang with Bricks](#how-to-use-polylang-with-bricks)
   - [Setting up Polylang with Bricks](#setting-up-polylang-with-bricks)
   - [Translating posts & pages](#translating-posts--pages)
+  - [Translating components](#translating-components)
   - [Translating templates](#translating-templates)
   - [Using templates conditions](#using-templates-conditions)
   - [Managing multilingual menus](#managing-multilingual-menus)
@@ -85,6 +86,18 @@ Make sure to enable the duplicator for the “My templates” post type underSet
 `Settings > Duplicate post > Permissions`
 
 Please ensure you check theofficial Polylang documentationfor detailed instructions.
+
+### Translating components
+
+Since Bricks 2.2-beta, you can now translate components with Polylang. All component strings are registered automatically, and you can translate them directly from the WordPress dashboard.
+
+To translate component strings:
+
+1. Go toLanguages > Translations.
+2. Search for the component string you want to translate.
+3. Add translations for each language your site supports and save.
+
+Make sure the admin language selector in the top admin bar is set toShow all languages.
 
 ### Translating templates
 

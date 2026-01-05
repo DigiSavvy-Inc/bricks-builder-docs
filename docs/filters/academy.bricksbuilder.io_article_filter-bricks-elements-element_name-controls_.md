@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/elements/{element_name}/controls – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-elements-element_name-controls/
-date: 2025-05-01T12:02:57.626312
+date: 2026-01-05T11:07:43.944797
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/query/result_max_num_pages – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-query-result_max_num_pages/
-date: 2025-05-01T12:03:26.569915
+date: 2026-01-05T11:08:32.953981
 status: success
 ---
 

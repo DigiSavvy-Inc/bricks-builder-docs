@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/footer/attributes – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-footer-attributes/
-date: 2025-05-01T12:02:56.164701
+date: 2026-01-05T11:07:38.538247
 status: success
 ---
 

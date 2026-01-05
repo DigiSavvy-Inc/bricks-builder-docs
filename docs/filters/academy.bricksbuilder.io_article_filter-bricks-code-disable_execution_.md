@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/code/disable_execution – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-code-disable_execution/
-date: 2025-05-01T12:03:04.269707
+date: 2026-01-05T11:07:49.339479
 status: success
 ---
 

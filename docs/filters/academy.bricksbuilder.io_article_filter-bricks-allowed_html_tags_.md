@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/allowed_html_tags – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-allowed_html_tags/
-date: 2025-05-01T12:02:47.201674
+date: 2026-01-05T11:07:20.896962
 status: success
 ---
 
@@ -12,7 +12,7 @@ status: success
 ## Table of Contents
 
 - [Filter: bricks/allowed_html_tags](#filter-bricksallowedhtmltags)
-        - [Filter: bricks/nav_menu/menu](#filter-bricksnavmenumenu)
+        - [Filter: bricks/pagination/total_pages](#filter-brickspaginationtotalpages)
         - [Filter: bricks/query/init_loop_index](#filter-bricksqueryinitloopindex)
 
 ## Filter: bricks/allowed_html_tags
@@ -57,7 +57,7 @@ add_filter( 'bricks/allowed_html_tags', function( $allowed_html_tags ) {
 
 Only allow HTML tags that are considered safe, as anyone with builder access can use them!
 
-###### Filter: bricks/nav_menu/menu
+###### Filter: bricks/pagination/total_pages
 
 ###### Filter: bricks/query/init_loop_index
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/dynamic_data/exclude_tags – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-exclude_tags/
-date: 2025-05-01T12:03:27.555111
+date: 2026-01-05T11:08:37.822882
 status: success
 ---
 

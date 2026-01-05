@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/code/allow_execution – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-code-allow_execution/
-date: 2025-05-01T12:03:26.894372
+date: 2026-01-05T11:08:35.790247
 status: success
 ---
 
@@ -12,7 +12,7 @@ status: success
 ## Table of Contents
 
 - [Filter: bricks/code/allow_execution](#filter-brickscodeallowexecution)
-        - [Filter: bricks/builder/image_size_options](#filter-bricksbuilderimagesizeoptions)
+        - [Filter: bricks/form/update_post/meta_value](#filter-bricksformupdatepostmetavalue)
         - [Filter: bricks/code/echo_function_names](#filter-brickscodeechofunctionnames)
 
 ## Filter: bricks/code/allow_execution
@@ -33,7 +33,7 @@ add_filter( 'bricks/code/allow_execution', function( $allow ) {
   return false;
 } );`
 
-###### Filter: bricks/builder/image_size_options
+###### Filter: bricks/form/update_post/meta_value
 
 ###### Filter: bricks/code/echo_function_names
 

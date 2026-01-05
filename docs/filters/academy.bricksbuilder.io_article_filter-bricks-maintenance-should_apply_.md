@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/maintenance/should_apply – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-maintenance-should_apply/
-date: 2025-05-01T12:03:25.606024
+date: 2026-01-05T11:08:30.183977
 status: success
 ---
 
@@ -17,10 +17,13 @@ status: success
   - [Example Usage:](#example-usage)
     - [Improved version with cookie persistence:](#improved-version-with-cookie-persistence)
         - [Filter: bricks/form/action/{form_action}](#filter-bricksformactionformaction)
+        - [Filter: bricks/placeholder_image](#filter-bricksplaceholderimage)
 
 ## Filter: bricks/maintenance/should_apply
 
-Use this filter to override whether maintenance mode should be enforced for the current request.
+Use this filter(@since 2.0)to override whether maintenance mode should be enforced for the current request.
+
+`(@since 2.0)`
 
 By default, Bricks checks if the user is in the admin area or builder, if the current page is the login page, if the user can bypass maintenance, or if the current post is in the excluded list.
 
@@ -130,4 +133,6 @@ add_filter( 'bricks/maintenance/should_apply', function( $apply_maintenance, $mo
 }, 10, 2 );`
 
 ###### Filter: bricks/form/action/{form_action}
+
+###### Filter: bricks/placeholder_image
 

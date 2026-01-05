@@ -1,7 +1,7 @@
 ---
 title: "Context Menu – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/context-menu/
-date: 2025-05-01T12:03:36.923745
+date: 2026-01-05T11:08:53.389338
 status: success
 ---
 
@@ -12,7 +12,7 @@ status: success
 ## Table of Contents
 
 - [Context Menu](#context-menu)
-        - [Gradients & Overlays](#gradients--overlays)
+        - [Custom Code](#custom-code)
         - [Global Elements](#global-elements)
 
 ## Context Menu
@@ -21,7 +21,7 @@ Bricks’ context menu gives you quick access to various block actions such as e
 
 To reveal the context menu simply hover over any block on the canvas and perform a right-click.
 
-###### Gradients & Overlays
+###### Custom Code
 
 ###### Global Elements
 

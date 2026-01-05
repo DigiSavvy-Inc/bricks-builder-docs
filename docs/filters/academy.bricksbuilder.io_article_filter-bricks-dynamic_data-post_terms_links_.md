@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/dynamic_data/post_terms_links – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-post_terms_links/
-date: 2025-05-01T12:02:55.845343
+date: 2026-01-05T11:07:37.898321
 status: success
 ---
 

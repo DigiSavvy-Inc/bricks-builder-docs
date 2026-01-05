@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/assets/load_webfonts – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-assets-load_webfonts/
-date: 2025-05-01T12:03:00.510790
+date: 2026-01-05T11:07:48.036128
 status: success
 ---
 

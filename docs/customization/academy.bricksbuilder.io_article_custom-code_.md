@@ -1,7 +1,7 @@
 ---
 title: "Custom Code – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/custom-code/
-date: 2025-02-27T15:36:18.838875
+date: 2026-01-05T11:08:45.571821
 status: success
 ---
 
@@ -20,7 +20,7 @@ status: success
     - [How to add PHP & HTML code to your element](#how-to-add-php--html-code-to-your-element)
     - [HTML Code Completion via Emmet](#html-code-completion-via-emmet)
         - [Custom Fonts](#custom-fonts)
-        - [Keyboard Shortcuts](#keyboard-shortcuts)
+        - [Gradients & Overlays](#gradients--overlays)
 
 ## Custom Code
 
@@ -124,5 +124,5 @@ https://docs.emmet.io/cheat-sheet/
 
 ###### Custom Fonts
 
-###### Keyboard Shortcuts
+###### Gradients & Overlays
 

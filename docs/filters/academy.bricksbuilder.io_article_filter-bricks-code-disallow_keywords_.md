@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/code/disallow_keywords – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-code-disallow_keywords/
-date: 2025-05-01T12:03:27.215507
+date: 2026-01-05T11:08:36.439497
 status: success
 ---
 

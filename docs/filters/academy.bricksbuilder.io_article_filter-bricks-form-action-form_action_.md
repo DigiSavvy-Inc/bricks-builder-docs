@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/form/action/{form_action} – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-form-action-form_action/
-date: 2025-05-01T12:03:11.501846
+date: 2026-01-05T11:08:05.533733
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Child Theme – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/child-theme/
-date: 2025-05-01T12:02:43.381909
+date: 2026-01-05T11:07:14.951492
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/query/result_count – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-query-result_count/
-date: 2025-05-01T12:03:18.725964
+date: 2026-01-05T11:08:20.209382
 status: success
 ---
 

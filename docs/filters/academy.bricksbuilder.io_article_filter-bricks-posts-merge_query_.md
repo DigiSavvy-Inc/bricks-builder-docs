@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/posts/merge_query – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-posts-merge_query/
-date: 2025-05-01T12:02:47.691626
+date: 2026-01-05T11:07:22.933417
 status: success
 ---
 

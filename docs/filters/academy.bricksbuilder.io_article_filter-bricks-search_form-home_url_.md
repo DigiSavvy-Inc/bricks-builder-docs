@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/search_form/home_url – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-search_form-home_url/
-date: 2025-05-01T12:03:14.568221
+date: 2026-01-05T11:08:07.554782
 status: success
 ---
 

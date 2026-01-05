@@ -1,7 +1,7 @@
 ---
 title: "Command Palette – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/command-palette/
-date: 2025-08-13T09:55:50.580782
+date: 2026-01-05T11:09:09.705955
 status: success
 ---
 
@@ -25,6 +25,7 @@ status: success
   - [Keyboard shortcuts](#keyboard-shortcuts)
   - [Notes](#notes)
         - [Icon Manager](#icon-manager)
+        - [Query Data from APIs](#query-data-from-apis)
 
 ## Command Palette
 
@@ -164,4 +165,6 @@ The “Pages” panel has been deprecated as all its functionality is now availa
 The “Docs” icon disappeared from the toolbar as well, but is still accessible from the “Builder” scope.
 
 ###### Icon Manager
+
+###### Query Data from APIs
 

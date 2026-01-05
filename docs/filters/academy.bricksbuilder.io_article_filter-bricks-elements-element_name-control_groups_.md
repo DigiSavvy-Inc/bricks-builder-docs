@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/elements/{element_name}/control_groups – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-elements-element_name-control_groups/
-date: 2025-05-01T12:02:52.073888
+date: 2026-01-05T11:07:34.499928
 status: success
 ---
 

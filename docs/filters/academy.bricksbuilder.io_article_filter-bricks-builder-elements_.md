@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/builder/elements – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-builder-elements/
-date: 2025-05-01T12:03:05.267658
+date: 2026-01-05T11:07:55.532909
 status: success
 ---
 

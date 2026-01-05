@@ -1,7 +1,7 @@
 ---
 title: "Builder – Bricks Academy"
 url: https://academy.bricksbuilder.io/collection/builder/
-date: 2025-05-01T12:03:20.407627
+date: 2026-01-05T11:08:22.579150
 status: success
 ---
 
@@ -24,12 +24,12 @@ status: success
   - [Adding & Editing Elements](#adding--editing-elements)
   - [Revisions](#revisions)
   - [Unsplash Integration](#unsplash-integration)
-  - [Global Elements](#global-elements)
-  - [Template Settings](#template-settings)
   - [Create Your Own Sidebars](#create-your-own-sidebars)
-  - [Gradients & Overlays](#gradients--overlays)
   - [Shape Dividers](#shape-dividers)
+  - [Template Settings](#template-settings)
   - [Context Menu](#context-menu)
+  - [Global Elements](#global-elements)
+  - [Gradients & Overlays](#gradients--overlays)
   - [Remote Templates](#remote-templates)
   - [Start Editing With Bricks](#start-editing-with-bricks)
   - [Theme Styles](#theme-styles)
@@ -102,12 +102,24 @@ status: success
   - [Visual Grid Builder](#visual-grid-builder)
   - [Product Variation Swatches (WooCommerce)](#product-variation-swatches-woocommerce)
   - [Contextual Spacing](#contextual-spacing)
+  - [Icon Manager](#icon-manager)
+  - [Font Manager](#font-manager)
+  - [Command Palette](#command-palette)
+  - [Fluid Typography](#fluid-typography)
+  - [User activation](#user-activation)
+  - [Create & Update Posts on the Frontend](#create--update-posts-on-the-frontend)
+  - [Global Queries & Query Manager](#global-queries--query-manager)
+  - [Query Data from APIs](#query-data-from-apis)
+  - [Bricks components as blocks](#bricks-components-as-blocks)
+  - [Wireframe Templates](#wireframe-templates)
+  - [Map (Leaflet)](#map-leaflet)
+  - [Search Criteria](#search-criteria)
 
 ### What  would you like to know?
 
 ## Collection: Builder
 
-- Installation & ActivationHow To Install The Bricks Theme Installing Bricks is the same as any other WordPress theme. First, download the latest… ...Continue reading ›
+- Installation & ActivationHow To Install The Bricks Theme Installing Bricks is the same as any other WordPress theme. First, download the ZIP… ...Continue reading ›
 - An Intro To The BuilderBricks is a drag & drop website builder for WordPress. It enables you to create your entire site visually, and… ...Continue reading ›
 - Best PracticesPlease keep the points below in mind when working with Bricks: Permalink SettingsGo to Settings > Permalinks, select Post name,… ...Continue reading ›
 - Save & PublishBricks, by default, automatically saves your builder changes every 60 seconds. To adjust or disable the autosave interval go to… ...Continue reading ›
@@ -118,12 +130,12 @@ status: success
 - Adding & Editing ElementsTo add an element to the canvas simply drag it from the panel and drop it anywhere onto the canvas.… ...Continue reading ›
 - RevisionsEvery time you perform a save in the builder, Bricks creates a revision/snapshot of your Bricks elements data (template, page,… ...Continue reading ›
 - Unsplash IntegrationFinding affordable, high-quality, commercially useable photography for your website (that doesn't scream stock photography) is really hard. Bricks is putting… ...Continue reading ›
-- Global ElementsTo reuse an existing element somewhere else on your site we can convert this element into a Global Element. How… ...Continue reading ›
-- Template SettingsWhen editing a template click the Settings (gear) icon in the builder toolbar to access the Template Settings: You should… ...Continue reading ›
 - Create Your Own SidebarsBricks provides you with its own, built-in sidebar generator. Located in your WordPress dashboard under Bricks > Sidebars it lets… ...Continue reading ›
-- Gradients & OverlaysSpice up your site's design by adding background, overlay, and text gradients to any element. When editing an element, the… ...Continue reading ›
 - Shape DividersGive your design an edge by adding an unlimited number of shape dividers such as tilts, drops, grids, clouds, strokes,… ...Continue reading ›
+- Template SettingsWhen editing a template click the Settings (gear) icon in the builder toolbar to access the Template Settings: You should… ...Continue reading ›
 - Context MenuBricks' context menu gives you quick access to various block actions such as edit, clone, delete, copy & paste styles… ...Continue reading ›
+- Global ElementsGlobal elements are officially deprecated since Bricks 2.0! Please convert all existing global elements into components using the new converter… ...Continue reading ›
+- Gradients & OverlaysSpice up your site's design by adding background, overlay, and text gradients to any element. When editing an element, the… ...Continue reading ›
 - Remote TemplatesRemote templates allow you to view & insert templates of another Bricks installation. Avoiding the constant template export from one… ...Continue reading ›
 - Start Editing With BricksOnce you have activated your license head over to Bricks → Settings and select the post types you want to… ...Continue reading ›
 - Theme StylesAdjust the default styling of your site layout, elements, colors, links, typography, etc. throughout your site via Theme Styles for… ...Continue reading ›
@@ -188,7 +200,7 @@ status: success
 - Password ProtectionBricks 1.11.1 introduces a Bricks-native Password Protection feature, giving you a simple yet powerful way to secure content across your… ...Continue reading ›
 - Masonry LayoutStarting with version 1.11.1, you can easily apply a masonry layout to any layout element in Bricks. The new Masonry… ...Continue reading ›
 - Cascade layerThe specificity of default Bricks styles has always been a balancing act. While we aim to keep these styles as… ...Continue reading ›
-- ComponentsComponents, available as an experimental feature since Bricks 1.12, let you create reusable elements. The content of each instance (text,… ...Continue reading ›
+- ComponentsComponents let you create reusable elements. Each component instance can is be customized through properties. While templates serve as the… ...Continue reading ›
 - Global class import managerSince Bricks 1.12, the global class import manager addresses a key challenge in managing imported classes. Previously, conflicting classes were… ...Continue reading ›
 - Query Results Summary ElementThe Query Results Summary element, introduced in version 1.12.2, allows you to display a dynamic count of results within a… ...Continue reading ›
 - Bricks CSS: Compatibility guidelinesBricks follows the Baseline compatibility standard to determine which CSS features we natively support in the styles Bricks outputs. What… ...Continue reading ›
@@ -196,11 +208,23 @@ status: success
 - Visual Grid BuilderThe new Visual Grid Builder allows you to visually design and manage your grid layouts. The feature becomes is available… ...Continue reading ›
 - Product Variation Swatches (WooCommerce)Bricks 2.0 introduces Product variation swatches, giving you more control over how product attribute options (i.e. color, size, pattern) appear… ...Continue reading ›
 - Contextual SpacingBricks 2.0 introduces Contextual spacing to give you full control over vertical spacing (margin) between elements like headings, paragraphs, and… ...Continue reading ›
+- Icon ManagerBricks 2.0 introduces the Icon Manager, a new feature for uploading and managing your own custom SVG icon sets directly… ...Continue reading ›
+- Font ManagerBricks 2.0 introduces the new Font Manager, a centralized interface for adding, organizing, and managing all your site's fonts directly… ...Continue reading ›
+- Command PaletteBricks 2.0 introduces the Command Palette, a powerful new feature that gives you instant keyboard-driven access to core functionality inside… ...Continue reading ›
+- Fluid TypographyStarting with Bricks 2.1, the Fluid Typography Generator lets you create pixel-perfect & responsive font sizes (through CSS variables using… ...Continue reading ›
+- User activationStarting with Bricks 2.1, you can enable the new User activation feature. Once enabled, newly registered users must confirm their… ...Continue reading ›
+- Create & Update Posts on the FrontendBricks 2.1 introduces the "Create post" and "Update post" form action to allow users to create and update content of… ...Continue reading ›
+- Global Queries & Query ManagerStarting with Bricks 2.1, you can create and manage reusable global queries. This lets you define query logic once and… ...Continue reading ›
+- Query Data from APIsStarting with Bricks 2.1, you can now use the powerful Query Loop builder to fetch and display data from an… ...Continue reading ›
+- Bricks components as blocksMost sites built with Bricks follow a simple pattern: you create your pages and templates in Bricks, and write your… ...Continue reading ›
+- Wireframe TemplatesWhat are Wireframes Wireframes are premade layouts that allow you to build your templates and pages quickly and effortlessly. Focusing… ...Continue reading ›
+- Map (Leaflet)Starting with Bricks 2.1, you can use the new Map (Leaflet) element to display fully interactive maps powered by Leaflet.js.… ...Continue reading ›
+- Search CriteriaBricks 2.2 introduces a powerful new way to control how search results are generated, whether the search is triggered by:… ...Continue reading ›
 -
 
 ### Installation & Activation
 
-How To Install The Bricks Theme Installing Bricks is the same as any other WordPress theme. First, download the latest… ...
+How To Install The Bricks Theme Installing Bricks is the same as any other WordPress theme. First, download the ZIP… ...
 
 ### An Intro To The Builder
 
@@ -242,29 +266,29 @@ Every time you perform a save in the builder, Bricks creates a revision/snapshot
 
 Finding affordable, high-quality, commercially useable photography for your website (that doesn't scream stock photography) is really hard. Bricks is putting… ...
 
-### Global Elements
-
-To reuse an existing element somewhere else on your site we can convert this element into a Global Element. How… ...
-
-### Template Settings
-
-When editing a template click the Settings (gear) icon in the builder toolbar to access the Template Settings: You should… ...
-
 ### Create Your Own Sidebars
 
 Bricks provides you with its own, built-in sidebar generator. Located in your WordPress dashboard under Bricks > Sidebars it lets… ...
-
-### Gradients & Overlays
-
-Spice up your site's design by adding background, overlay, and text gradients to any element. When editing an element, the… ...
 
 ### Shape Dividers
 
 Give your design an edge by adding an unlimited number of shape dividers such as tilts, drops, grids, clouds, strokes,… ...
 
+### Template Settings
+
+When editing a template click the Settings (gear) icon in the builder toolbar to access the Template Settings: You should… ...
+
 ### Context Menu
 
 Bricks' context menu gives you quick access to various block actions such as edit, clone, delete, copy & paste styles… ...
+
+### Global Elements
+
+Global elements are officially deprecated since Bricks 2.0! Please convert all existing global elements into components using the new converter… ...
+
+### Gradients & Overlays
+
+Spice up your site's design by adding background, overlay, and text gradients to any element. When editing an element, the… ...
 
 ### Remote Templates
 
@@ -524,7 +548,7 @@ The specificity of default Bricks styles has always been a balancing act. While 
 
 ### Components
 
-Components, available as an experimental feature since Bricks 1.12, let you create reusable elements. The content of each instance (text,… ...
+Components let you create reusable elements. Each component instance can is be customized through properties. While templates serve as the… ...
 
 ### Global class import manager
 
@@ -553,4 +577,52 @@ Bricks 2.0 introduces Product variation swatches, giving you more control over h
 ### Contextual Spacing
 
 Bricks 2.0 introduces Contextual spacing to give you full control over vertical spacing (margin) between elements like headings, paragraphs, and… ...
+
+### Icon Manager
+
+Bricks 2.0 introduces the Icon Manager, a new feature for uploading and managing your own custom SVG icon sets directly… ...
+
+### Font Manager
+
+Bricks 2.0 introduces the new Font Manager, a centralized interface for adding, organizing, and managing all your site's fonts directly… ...
+
+### Command Palette
+
+Bricks 2.0 introduces the Command Palette, a powerful new feature that gives you instant keyboard-driven access to core functionality inside… ...
+
+### Fluid Typography
+
+Starting with Bricks 2.1, the Fluid Typography Generator lets you create pixel-perfect & responsive font sizes (through CSS variables using… ...
+
+### User activation
+
+Starting with Bricks 2.1, you can enable the new User activation feature. Once enabled, newly registered users must confirm their… ...
+
+### Create & Update Posts on the Frontend
+
+Bricks 2.1 introduces the "Create post" and "Update post" form action to allow users to create and update content of… ...
+
+### Global Queries & Query Manager
+
+Starting with Bricks 2.1, you can create and manage reusable global queries. This lets you define query logic once and… ...
+
+### Query Data from APIs
+
+Starting with Bricks 2.1, you can now use the powerful Query Loop builder to fetch and display data from an… ...
+
+### Bricks components as blocks
+
+Most sites built with Bricks follow a simple pattern: you create your pages and templates in Bricks, and write your… ...
+
+### Wireframe Templates
+
+What are Wireframes Wireframes are premade layouts that allow you to build your templates and pages quickly and effortlessly. Focusing… ...
+
+### Map (Leaflet)
+
+Starting with Bricks 2.1, you can use the new Map (Leaflet) element to display fully interactive maps powered by Leaflet.js.… ...
+
+### Search Criteria
+
+Bricks 2.2 introduces a powerful new way to control how search results are generated, whether the search is triggered by:… ...
 

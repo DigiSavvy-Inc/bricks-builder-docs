@@ -1,7 +1,7 @@
 ---
 title: "Code review – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/code-review/
-date: 2025-05-01T12:03:42.445172
+date: 2026-01-05T11:09:08.984767
 status: success
 ---
 

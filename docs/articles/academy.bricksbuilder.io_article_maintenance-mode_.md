@@ -1,7 +1,7 @@
 ---
 title: "Maintenance Mode – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/maintenance-mode/
-date: 2025-05-01T12:03:34.153083
+date: 2026-01-05T11:08:49.307292
 status: success
 ---
 

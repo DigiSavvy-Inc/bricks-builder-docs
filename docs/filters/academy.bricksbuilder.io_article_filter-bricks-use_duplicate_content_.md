@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/use_duplicate_content – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-use_duplicate_content/
-date: 2025-05-01T12:03:05.603608
+date: 2026-01-05T11:07:52.891058
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/registered_post_types_args – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-registered_post_types_args/
-date: 2025-05-01T12:03:16.897195
+date: 2026-01-05T11:08:13.243392
 status: success
 ---
 

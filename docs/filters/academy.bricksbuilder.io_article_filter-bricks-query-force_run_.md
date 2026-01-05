@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/query/force_run – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-query-force_run/
-date: 2025-05-01T12:03:09.523936
+date: 2026-01-05T11:08:04.237802
 status: success
 ---
 

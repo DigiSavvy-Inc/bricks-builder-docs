@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/query/no_results_content – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-query-no_results_content/
-date: 2025-05-01T12:36:30.193540
+date: 2026-01-05T11:09:47.582620
 status: success
 ---
 

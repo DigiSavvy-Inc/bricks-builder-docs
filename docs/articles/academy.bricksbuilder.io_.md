@@ -1,7 +1,7 @@
 ---
 title: "Bricks Academy"
 url: https://academy.bricksbuilder.io/
-date: 2025-05-01T12:03:13.430395
+date: 2026-01-05T11:08:10.469010
 status: success
 ---
 
@@ -22,11 +22,11 @@ status: success
 - Actions(3)
 - WooCommerce(12)
 - Getting Started(16)
-- Templates(5)
-- Features(58)
+- Templates(6)
+- Features(69)
 - Basics (Developer)(8)
 - Controls (Developer)(35)
-- Filters (Developer)(73)
+- Filters (Developer)(81)
 
 #### Getting Started:
 

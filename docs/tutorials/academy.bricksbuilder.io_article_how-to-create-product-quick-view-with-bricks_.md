@@ -1,7 +1,7 @@
 ---
 title: "How to Create Product Quick View with Bricks – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/how-to-create-product-quick-view-with-bricks/
-date: 2025-05-01T12:32:59.581418
+date: 2026-01-05T11:09:39.209349
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/content/tag – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-content-tag/
-date: 2025-05-01T12:02:51.757442
+date: 2026-01-05T11:07:27.617252
 status: success
 ---
 

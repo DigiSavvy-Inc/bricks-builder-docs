@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/element/render_attributes – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-element-render_attributes/
-date: 2025-05-01T12:02:43.708201
+date: 2026-01-05T11:07:11.455099
 status: success
 ---
 

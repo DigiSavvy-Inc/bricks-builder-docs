@@ -1,7 +1,7 @@
 ---
 title: "Save Form Submissions – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/save-form-submissions/
-date: 2025-05-01T12:03:41.315344
+date: 2026-01-05T11:08:59.896935
 status: success
 ---
 

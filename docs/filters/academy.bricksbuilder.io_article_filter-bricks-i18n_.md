@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/builder/i18n – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-i18n/
-date: 2025-05-01T12:03:22.352360
+date: 2026-01-05T11:08:27.412699
 status: success
 ---
 

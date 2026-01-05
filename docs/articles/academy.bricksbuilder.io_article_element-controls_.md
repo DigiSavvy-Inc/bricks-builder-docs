@@ -1,7 +1,7 @@
 ---
 title: "Element Controls – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/element-controls/
-date: 2025-05-01T12:02:51.116404
+date: 2026-01-05T11:07:30.300923
 status: success
 ---
 

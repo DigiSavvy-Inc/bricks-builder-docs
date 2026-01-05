@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/query/init_loop_index – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-query-init_loop_index/
-date: 2025-05-01T12:03:03.130560
+date: 2026-01-05T11:07:45.332863
 status: success
 ---
 

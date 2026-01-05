@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/element/set_root_attributes – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-set_root_attributes/
-date: 2025-05-01T12:03:14.902750
+date: 2026-01-05T11:08:15.466021
 status: success
 ---
 

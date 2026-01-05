@@ -1,7 +1,7 @@
 ---
 title: "Action: bricks/generate_css_file – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/action-bricks-generate_css_file/
-date: 2025-02-27T15:35:21.667581
+date: 2026-01-05T11:07:47.345834
 status: success
 ---
 

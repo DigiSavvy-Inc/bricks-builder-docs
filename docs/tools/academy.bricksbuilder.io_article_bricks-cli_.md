@@ -1,7 +1,7 @@
 ---
 title: "Bricks CLI – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/bricks-cli/
-date: 2025-05-01T12:02:51.437132
+date: 2026-01-05T11:07:31.698593
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/content/html_after_begin – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-content-html_after_begin/
-date: 2025-05-01T12:03:21.388689
+date: 2026-01-05T11:08:28.091733
 status: success
 ---
 

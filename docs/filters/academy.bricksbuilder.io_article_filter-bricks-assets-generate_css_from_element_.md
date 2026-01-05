@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/assets/generate_css_from_element – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-assets-generate_css_from_element/
-date: 2025-05-01T12:02:48.659323
+date: 2026-01-05T11:07:18.904702
 status: success
 ---
 

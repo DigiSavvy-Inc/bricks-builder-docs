@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/builder/image_size_options – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-builder-image_size_options/
-date: 2025-05-01T12:03:07.055683
+date: 2026-01-05T11:07:56.375477
 status: success
 ---
 
@@ -13,7 +13,7 @@ status: success
 
 - [Filter: bricks/builder/image_size_options](#filter-bricksbuilderimagesizeoptions)
         - [Filter: bricks/auth/custom_reset_password_redirect](#filter-bricksauthcustomresetpasswordredirect)
-        - [Filter: bricks/code/allow_execution](#filter-brickscodeallowexecution)
+        - [Filter: bricks/form/create_post/meta_value](#filter-bricksformcreatepostmetavalue)
 
 ## Filter: bricks/builder/image_size_options
 
@@ -53,5 +53,5 @@ add_filter( 'bricks/builder/image_size_options', function( $image_sizes ) {
 
 ###### Filter: bricks/auth/custom_reset_password_redirect
 
-###### Filter: bricks/code/allow_execution
+###### Filter: bricks/form/create_post/meta_value
 

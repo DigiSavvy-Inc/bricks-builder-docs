@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/frontend/render_element – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-frontend-render_element/
-date: 2025-05-01T12:02:42.731585
+date: 2026-01-05T11:07:10.809192
 status: success
 ---
 
@@ -17,7 +17,7 @@ status: success
 
 ## Filter: bricks/frontend/render_element
 
-Thebricks/frontend/render_elementfilter allows you to modify the HTML output of any element in Bricks on the frontend. This powerful hook can be used for a variety of customization tasks, such as adding comments, modifying content, or dynamically adjusting HTML. (@since 1.x)
+Thebricks/frontend/render_elementfilter allows you to modify the HTML output of any element in Bricks on the frontend. This powerful hook can be used for a variety of customization tasks, such as adding comments, modifying content, or dynamically adjusting HTML. (@since 2.0)
 
 `bricks/frontend/render_element`
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/auth/custom_registration_redirect – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-auth-custom_registration_redirect/
-date: 2025-05-01T12:03:16.577490
+date: 2026-01-05T11:08:14.806164
 status: success
 ---
 

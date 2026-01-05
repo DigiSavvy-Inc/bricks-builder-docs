@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/code/echo_function_names – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-code-echo_function_names/
-date: 2025-05-01T12:02:49.302026
+date: 2026-01-05T11:07:25.578620
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Basics (Developer) – Bricks Academy"
 url: https://academy.bricksbuilder.io/topic/basics/
-date: 2025-02-27T15:35:42.268192
+date: 2026-01-05T11:08:09.096141
 status: success
 ---
 

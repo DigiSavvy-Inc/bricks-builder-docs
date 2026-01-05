@@ -1,7 +1,7 @@
 ---
 title: "How to use WPML with Bricks – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/how-to-use-wpml-with-bricks/
-date: 2025-05-01T12:32:53.302185
+date: 2026-01-05T11:09:38.550571
 status: success
 ---
 
@@ -15,7 +15,7 @@ status: success
   - [Setting up the environment](#setting-up-the-environment)
   - [Translation options with WPML & Bricks](#translation-options-with-wpml--bricks)
   - [Translating website content](#translating-website-content)
-    - [Bulk translation via translation management](#bulk-translation-via-translation-management)
+    - [Bulk translation via translation dashboard](#bulk-translation-via-translation-dashboard)
     - [Translating individual pages and posts](#translating-individual-pages-and-posts)
     - [Template translation:](#template-translation)
     - [Example: Translating an archive template:](#example-translating-an-archive-template)
@@ -59,10 +59,12 @@ Before translating, set up your environment with the necessary plugins:
 
 - You can use theOTGS installerto install the requiredWPML Multilingual CMSandWPML String Translationplugins.
 
-1. Language Configuration:You can configure your website’s languages and other settings throughthe WPML setup wizard.
-2. You can configure your website’s languages and other settings throughthe WPML setup wizard.
+1. Language Configuration:You can configure your website’s languages and other settings throughthe WPML setup wizard. During this process, WPML will also ask you for context about your website, such as what it’s about and whose it for.
+2. You can configure your website’s languages and other settings throughthe WPML setup wizard. During this process, WPML will also ask you for context about your website, such as what it’s about and whose it for.
 
-- You can configure your website’s languages and other settings throughthe WPML setup wizard.
+- You can configure your website’s languages and other settings throughthe WPML setup wizard. During this process, WPML will also ask you for context about your website, such as what it’s about and whose it for.
+
+Using the context that you provide, WPML’s AI translator –PTC (Private Translation Cloud)will create translations that fit your target audience and industry.
 
 ### Translation options with WPML & Bricks
 
@@ -89,15 +91,19 @@ For more in-depth information on each method, refer to the officialWPML document
 
 Translate your website content using WPML and Bricks through the following steps:
 
-#### Bulk translation via translation management
+#### Bulk translation via translation dashboard
 
-WPML can translate any content you build with Bricks, including pages, posts, and templates.
+WPML can translate any content you build with Bricks, including pages, posts, templates, and components.
 
-To translate any Bricks content, start by going toWPML→Translation Management. From here, expand the section with the content you want to translate and select your items.
+To translate any Bricks content, start by going toWPML→Translation Dashboard. From here, expand the section with the content you want to translate and select your items.
 
-Next, choose which languages to translate into, your translation method, and whether you’d like to review translations before publishing them.
+For example, to translate a page, expand thePagessection and select the page. This will include all Bricks element data and any component instance property values used on that page. To translate Bricks components themselves, expand theBricks componentssection and select the components you want to translate.
 
-To review translations, simply go toWPML→Translationsand open your recent translation job. In most cases, your translations will be good to go, but you can always make changes using WPML’sAdvanced Translation Editor.
+Next, selectTranslate automaticallyfor the languages you want to translate into, and click theTranslatebutton to begin. If you look under the table, WPML also shows you how much translating your content costs.
+
+In most cases, your translations will be good to go, but you can always review and make changes using WPML’sAdvanced Translation Editor.
+
+Just visit the translated page you want to edit on the front-end, and clickEdit translationin the top admin bar. This will open the editor, where you can make any changes necessary.
 
 Once you’re done reviewing, you can instantly publish your translations and display them on your website. Remember that you need to switch languages to view your translations.
 

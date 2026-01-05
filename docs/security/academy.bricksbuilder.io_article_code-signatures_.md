@@ -1,7 +1,7 @@
 ---
 title: "Code signatures – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/code-signatures/
-date: 2025-05-01T12:03:33.465961
+date: 2026-01-05T11:08:48.673696
 status: success
 ---
 
@@ -24,6 +24,7 @@ status: success
     - [Understanding WordPress salts](#understanding-wordpress-salts)
     - [Understanding thewp_hashfunction](#understanding-thewphashfunction)
     - [Bricks code integrity verification process](#bricks-code-integrity-verification-process)
+  - [Why rotating WordPress salts regularly is a bad idea](#why-rotating-wordpress-salts-regularly-is-a-bad-idea)
   - [Why can’t code be automatically signed?](#why-cant-code-be-automatically-signed)
         - [Query Sort, Filter & Live Search](#query-sort-filter--live-search)
         - [Code review](#code-review)
@@ -159,6 +160,23 @@ The integration ofCode signatures&Code reviewin Bricks 1.9.7 marks a significant
 
 Collectively, these enhancements provide a comprehensive framework for ensuring the security and authenticity of your site’s code. Helping you safeguard against potential unauthorized modifications and maintain the overall health and safety of your WordPress site.
 
+### Why rotating WordPress salts regularly is a bad idea
+
+If you rotate the salts in yourwp-config.phpfile, all existing Bricks code signatures will become invalid. You’ll need to manually regenerate them fromBricks Settings > Custom code > Code signaturesfor any signed code to run again. If you’re wondering why we don’t automate signature regeneration, readthe next section.
+
+`wp-config.php`
+
+Some plugins offer automatic salt rotation with the claim that it makes cracking passwords harder. That claim is incorrect. WordPress salts are not used for hashing user passwords. Rotating them provides no added protection against password theft or brute-force attacks.
+
+What salt rotationdoescause:
+
+- Logs out all users by invalidating authentication cookies
+- Breaks nonces, which can disrupt form submissions and AJAX requests
+- Can break plugins that use salts for encryption or data integrity
+- Invalidates all code signatures
+
+Unless your site has been compromised, there’s no practical reason to rotate salts. It introduces unnecessary breakage and instability.
+
 ### Why can’t code be automatically signed?
 
 Bricks requiresmanual code signingto prevent a bad situation from becoming much worse in the event of a breach.
@@ -167,7 +185,7 @@ Here’s the risk: If someone gains access to your database (e.g. through a plug
 
 Because Bricks uses code signatures tied to your site’s unique WordPress salts, that attacker can’t make the code executable by only having access to the database. It remains unsigned, and Bricks blocks it from running.
 
-However, if code were automatically signed just because a logged-in user with code execution capability opens the builder, that entire protection would collapse. The attacker could plant malicious code in the database and wait. As soon as you load the builder, the code would be auto-signed and run the code on your behalf—without you even seeing it.
+However, if code were automatically signed just because a logged-in user with code execution capability opens the builder, that entire protection would collapse. The attacker could plant malicious code in the database and wait. As soon as you load the builder, the code would be auto-signed and run the code on your behalf,without you even seeing it.
 
 Manual signing forces a checkpoint. The code shows up as unsigned (red), so you have a chance to review and decide whether it should be trusted. This step contains the impact of a partial breach and stops it from escalating into full code execution.
 

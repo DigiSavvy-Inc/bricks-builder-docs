@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/get_element_data/maybe_from_post_id – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-get_element_data-maybe_from_post_id/
-date: 2025-05-01T12:03:22.838189
+date: 2026-01-05T11:08:26.780300
 status: success
 ---
 

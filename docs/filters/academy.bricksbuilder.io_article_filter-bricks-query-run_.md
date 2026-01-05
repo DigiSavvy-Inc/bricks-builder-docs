@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/query/run – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-query-run/
-date: 2025-05-01T12:03:24.770269
+date: 2026-01-05T11:08:34.395154
 status: success
 ---
 

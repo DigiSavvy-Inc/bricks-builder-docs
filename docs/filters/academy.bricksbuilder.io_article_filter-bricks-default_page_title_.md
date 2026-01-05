@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/default_page_title – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-default_page_title/
-date: 2025-05-01T12:03:09.023315
+date: 2026-01-05T11:08:02.203595
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/link_css_selectors – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-link_css_selectors/
-date: 2025-05-01T12:03:24.125744
+date: 2026-01-05T11:08:32.225496
 status: success
 ---
 

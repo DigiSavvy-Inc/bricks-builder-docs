@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/placeholder_image – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-placeholder_image/
-date: 2025-08-13T09:55:38.569787
+date: 2026-01-05T11:08:23.246762
 status: success
 ---
 
@@ -14,6 +14,7 @@ status: success
 - [Filter: bricks/placeholder_image](#filter-bricksplaceholderimage)
   - [Parameters](#parameters)
         - [Filter: bricks/maintenance/should_apply](#filter-bricksmaintenanceshouldapply)
+        - [Filter: bricks/filter_element/populated_options](#filter-bricksfilterelementpopulatedoptions)
 
 ## Filter: bricks/placeholder_image
 
@@ -78,4 +79,6 @@ add_filter( 'bricks/placeholder_image', function( $image, $is_svg, $format ) {
 }, 10, 3 );`
 
 ###### Filter: bricks/maintenance/should_apply
+
+###### Filter: bricks/filter_element/populated_options
 

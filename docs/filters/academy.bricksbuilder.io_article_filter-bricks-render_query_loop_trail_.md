@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/render_query_loop_trail – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-render_query_loop_trail/
-date: 2025-05-01T12:02:50.791545
+date: 2026-01-05T11:07:24.939090
 status: success
 ---
 

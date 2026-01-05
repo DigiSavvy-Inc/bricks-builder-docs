@@ -1,7 +1,7 @@
 ---
 title: "Font Manager – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/font-manager/
-date: 2025-08-13T09:55:41.524951
+date: 2026-01-05T11:08:38.513867
 status: success
 ---
 

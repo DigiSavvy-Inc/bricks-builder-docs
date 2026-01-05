@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/dynamic_data/replace_nonexistent_tags – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-replace_nonexistent_tags/
-date: 2025-05-01T12:03:25.929992
+date: 2026-01-05T11:08:35.125918
 status: success
 ---
 

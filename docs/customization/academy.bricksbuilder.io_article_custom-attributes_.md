@@ -1,7 +1,7 @@
 ---
 title: "Custom Attributes – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/custom-attributes/
-date: 2025-02-27T15:36:20.043772
+date: 2026-01-05T11:08:54.077661
 status: success
 ---
 

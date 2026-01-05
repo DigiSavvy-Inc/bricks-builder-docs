@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/content/attributes – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-content-attributes/
-date: 2025-05-01T12:03:21.069577
+date: 2026-01-05T11:08:18.162832
 status: success
 ---
 

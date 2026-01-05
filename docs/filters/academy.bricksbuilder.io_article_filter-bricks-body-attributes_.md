@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/body/attributes – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-body-attributes/
-date: 2025-05-01T12:02:45.886241
+date: 2026-01-05T11:07:19.624260
 status: success
 ---
 

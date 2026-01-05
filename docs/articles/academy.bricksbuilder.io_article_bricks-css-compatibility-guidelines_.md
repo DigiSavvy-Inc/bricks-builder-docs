@@ -1,7 +1,7 @@
 ---
 title: "Bricks CSS: Compatibility guidelines – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/bricks-css-compatibility-guidelines/
-date: 2025-05-01T12:03:46.326183
+date: 2026-01-05T11:08:56.764749
 status: success
 ---
 

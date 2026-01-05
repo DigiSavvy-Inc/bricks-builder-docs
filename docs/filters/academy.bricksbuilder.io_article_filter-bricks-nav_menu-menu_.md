@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/nav_menu/menu – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-nav_menu-menu/
-date: 2025-05-01T12:03:15.565335
+date: 2026-01-05T11:08:06.900827
 status: success
 ---
 
@@ -13,7 +13,7 @@ status: success
 
 - [Filter: bricks/nav_menu/menu](#filter-bricksnavmenumenu)
         - [Filter: bricks/code/disable_execution](#filter-brickscodedisableexecution)
-        - [Filter: bricks/allowed_html_tags](#filter-bricksallowedhtmltags)
+        - [Filter: bricks/pagination/custom_logic](#filter-brickspaginationcustomlogic)
 
 ## Filter: bricks/nav_menu/menu
 
@@ -63,5 +63,5 @@ add_filter( 'bricks/nav_menu/menu', function( $menu, $post_id, $element ) {
 
 ###### Filter: bricks/code/disable_execution
 
-###### Filter: bricks/allowed_html_tags
+###### Filter: bricks/pagination/custom_logic
 

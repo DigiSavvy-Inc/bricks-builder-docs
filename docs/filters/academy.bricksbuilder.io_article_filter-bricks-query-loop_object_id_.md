@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/query/loop_object_id – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-query-loop_object_id/
-date: 2025-05-01T12:36:31.321848
+date: 2026-01-05T11:09:48.251504
 status: success
 ---
 

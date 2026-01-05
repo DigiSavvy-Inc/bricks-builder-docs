@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/screen_conditions/scores – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-screen_conditions-scores/
-date: 2025-05-01T12:03:08.703733
+date: 2026-01-05T11:08:01.545761
 status: success
 ---
 

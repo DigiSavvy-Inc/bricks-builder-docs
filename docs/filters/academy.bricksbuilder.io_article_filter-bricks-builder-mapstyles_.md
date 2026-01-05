@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/builder/map_styles – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-builder-mapstyles/
-date: 2025-05-01T12:03:17.575707
+date: 2026-01-05T11:08:16.829885
 status: success
 ---
 
@@ -12,7 +12,7 @@ status: success
 ## Table of Contents
 
 - [Filter: bricks/builder/map_styles](#filter-bricksbuildermapstyles)
-        - [Filter: bricks/builder/i18n](#filter-bricksbuilderi18n)
+        - [Filter: bricks/builder/save_messages](#filter-bricksbuildersavemessages)
         - [Filter: bricks/builder/save_messages](#filter-bricksbuildersavemessages)
 
 ## Filter: bricks/builder/map_styles
@@ -35,7 +35,7 @@ add_filter( 'bricks/builder/map_styles', function( $map_styles ) {
 } );
 ```
 
-###### Filter: bricks/builder/i18n
+###### Filter: bricks/builder/save_messages
 
 ###### Filter: bricks/builder/save_messages
 

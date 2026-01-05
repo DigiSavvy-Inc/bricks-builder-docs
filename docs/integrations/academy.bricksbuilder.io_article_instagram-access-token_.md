@@ -1,7 +1,7 @@
 ---
 title: "How to get your Instagram Access Token – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/instagram-access-token/
-date: 2025-05-01T12:32:45.387399
+date: 2026-01-05T11:09:37.107794
 status: success
 ---
 
@@ -43,14 +43,14 @@ Before proceeding, make sure your Instagram account is either aCreatororBusiness
 You first have to set up an application on the Meta for Developers platform by following these steps:
 
 1. Access yourMeta for Developers platform. You can use an existing account orcreate a new one.
-2. ClickCreate App. A dialog window will appear, asking you to define your app’s functionalities:SelectOtheras the use case and clickNext.SelectBusinessas the app type to set the app permissions and clickNext.
-3. SelectOtheras the use case and clickNext.
-4. SelectBusinessas the app type to set the app permissions and clickNext.
-5. Provide anApp NameandContact Email.
-6. ClickNextto complete the setup.
+2. Provide anApp NameandContact Email.
+3. ClickCreate App, then:UnderAdd use cases, selectManage messaging & content on Instagram(from theContent management category), then clickNext.When prompted, you may connect a Business account now or skip and do it later.
+4. UnderAdd use cases, selectManage messaging & content on Instagram(from theContent management category), then clickNext.
+5. When prompted, you may connect a Business account now or skip and do it later.
+6. ClickNextand thenGo to dashboardto complete the setup.
 
-- SelectOtheras the use case and clickNext.
-- SelectBusinessas the app type to set the app permissions and clickNext.
+- UnderAdd use cases, selectManage messaging & content on Instagram(from theContent management category), then clickNext.
+- When prompted, you may connect a Business account now or skip and do it later.
 
 You will be redirected to the app dashboard for your new app with products you can add to your app.
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/password_protection/cookie_expires – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-password_protection-cookie-expires/
-date: 2025-05-01T12:02:48.010589
+date: 2026-01-05T11:07:16.964497
 status: success
 ---
 

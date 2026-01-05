@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/is_layout_element – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-is_layout_element/
-date: 2025-05-01T12:02:53.691003
+date: 2026-01-05T11:07:35.163706
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/dynamic_data/post_terms_separator – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-dynamic_data-post_terms_separator/
-date: 2025-05-01T12:03:22.031724
+date: 2026-01-05T11:08:25.398526
 status: success
 ---
 

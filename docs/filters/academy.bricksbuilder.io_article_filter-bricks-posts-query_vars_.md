@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/posts/query_vars – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-posts-query_vars/
-date: 2025-05-01T12:03:14.246985
+date: 2026-01-05T11:08:09.747823
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/password_protection/is_active – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-password_protection-is_active/
-date: 2025-05-01T12:03:15.230308
+date: 2026-01-05T11:08:11.130922
 status: success
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Function: bricks_render_dynamic_data – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/function-bricks_render_dynamic_data/
-date: 2025-02-27T15:28:15.491409
+date: 2026-01-05T11:07:28.281414
 status: success
 ---
 

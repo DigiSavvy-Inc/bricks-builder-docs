@@ -1,7 +1,7 @@
 ---
 title: "Element: Post Content – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/element-post-content/
-date: 2025-05-01T12:03:35.464648
+date: 2026-01-05T11:08:51.340389
 status: success
 ---
 

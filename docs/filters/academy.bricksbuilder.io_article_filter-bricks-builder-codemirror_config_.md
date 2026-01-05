@@ -1,7 +1,7 @@
 ---
 title: "Filter: bricks/builder/codemirror_config – Bricks Academy"
 url: https://academy.bricksbuilder.io/article/filter-bricks-builder-codemirror_config/
-date: 2025-05-01T12:03:17.219878
+date: 2026-01-05T11:08:13.900092
 status: success
 ---
 
